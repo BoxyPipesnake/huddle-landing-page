@@ -52,6 +52,7 @@ img {
     background-size: cover;
     background-color: var(--very-pale-cyan);
     padding: 1.5rem;
+    margin-bottom: 3rem;
 }
 
 .logo {
@@ -126,3 +127,33 @@ img {
     color: var(--grayish-blue);
 }
 
+.card-1, .card-2 {
+    margin-bottom: 2rem;
+}
+
+.card-3 {
+    margin-bottom: 3rem;
+}
+
+.cta {
+    background-color: var(--very-pale-cyan);
+    text-align: center;
+    width: 95%;
+    padding: 3rem 1rem;
+    border-radius: 17px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.cta__sub-heading {
+    font-size: 18.6px;
+    margin-bottom: 2rem;
+}
+
+.footer {
+    background-color: var(--very-dark-cyan);
+    color: var(--very-pale-cyan);
+    padding: 7rem 1rem 4rem 1rem;
+    margin-top: -4rem;
+}
