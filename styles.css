@@ -27,7 +27,6 @@ body {
     font-size: 1.125rem;
 }
 
-
 h1, h2 {
     font-family: var(--headings);
     font-weight: 600;
@@ -41,7 +40,6 @@ img {
     max-width: 100%;
     height: auto;
 }
-
 
 .hero {
     background-image: url('./images/bg-hero-mobile.svg');
@@ -135,10 +133,7 @@ img {
     }
 }
 
-
-
 .card {
-    /* background-color: red; */
     text-align: center;
     padding: 1.7rem;
     margin: 1.2rem;
@@ -192,7 +187,7 @@ img {
         font-size: 1.7rem;
     }
 
-    .card-2 .card__content {
+    .card-1 .card__content, .card-3 .card__content {
         order: -1;
     }
 }
@@ -211,6 +206,22 @@ img {
 .cta__sub-heading {
     font-size: 18.6px;
     margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .cta {
+        width: 50%;
+    }
+
+    .cta__sub-heading {
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .cta--btn {
+        padding: 1.5rem 3rem;
+        font-size: 18px;
+    }
 }
 
 .footer {
@@ -256,7 +267,6 @@ img {
 }
 
 .footer__link {
-    /* display: block; */
     color: var(--very-pale-cyan);
 }
 
