@@ -291,3 +291,29 @@ img {
 .footer__copyright > p {
     font-size: 14px;
 }
+
+@media (min-width: 768px) {
+    .footer {
+        padding: 7rem 5rem 4rem 6rem;
+    }
+
+    .footer__container {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 2rem;
+    }
+
+    .footer__content {
+        width: 40%;
+    }
+
+    .footer__social-icons {
+        margin: 0;
+    }
+
+    .footer__copyright-text {
+        display: flex;
+        justify-content: end;
+    }
+
+}
